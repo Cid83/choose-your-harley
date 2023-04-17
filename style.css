@@ -1,0 +1,51 @@
+.fas{
+    cursor: pointer;
+}
+
+.logo{
+    margin: auto;
+    height: 120px;
+    width: 140px;
+    margin-top: 10px;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.144);
+    height: 100vh;
+
+}
+
+.card{
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.card-body{
+    background-color: #ffffffab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-link{
+    text-decoration: none;
+    color: navy;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.card-link:hover{
+    opacity: 0.8;
+}
+
+.arrow:hover{
+   color: gray;
+   transition: .3s;
+}
